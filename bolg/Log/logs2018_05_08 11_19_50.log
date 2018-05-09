@@ -1,0 +1,25 @@
+[2018-05-08-11:19:53] [INFO] 正在启动谷歌浏览器....
+[2018-05-08-11:19:55] [INFO] 打开网址http://127.0.0.1:8080/discuz/forum.php
+[2018-05-08-11:19:55] [INFO] 元素找到 id: ls_username
+[2018-05-08-11:19:55] [INFO] 元素找到 id: ls_username
+[2018-05-08-11:19:55] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (b0ea4392e06b8bb113cf1a8d0a428a41)] -> id: ls_username内容
+[2018-05-08-11:19:55] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (b0ea4392e06b8bb113cf1a8d0a428a41)] -> id: ls_username
+[2018-05-08-11:19:55] [INFO] 元素找到 id: ls_password
+[2018-05-08-11:19:55] [INFO] 元素找到 id: ls_password
+[2018-05-08-11:19:55] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (b0ea4392e06b8bb113cf1a8d0a428a41)] -> id: ls_password内容
+[2018-05-08-11:19:55] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (b0ea4392e06b8bb113cf1a8d0a428a41)] -> id: ls_password
+[2018-05-08-11:19:55] [INFO] 元素找到 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08-11:19:55] [INFO] 已点击加载
+[2018-05-08-11:19:58] [INFO] 元素找到 class name: fl_icn
+[2018-05-08-11:19:59] [INFO] 已点击加载
+[2018-05-08-11:20:02] [INFO] 元素找到 name: moderate[]
+[2018-05-08-11:20:02] [INFO] 已点击加载
+[2018-05-08-11:20:05] [INFO] 元素找到 link text: 删除
+[2018-05-08-11:20:05] [INFO] 已点击加载
+[2018-05-08-11:20:08] [INFO] 元素找到 xpath: //*[@id="modsubmit"]
+[2018-05-08-11:20:08] [INFO] 已点击加载
+[2018-05-08-11:20:11] [INFO] 元素找到 xpath: //*[@id="um"]/p[1]/a[5]
+[2018-05-08-11:20:11] [INFO] 已点击加载
+[2018-05-08-11:20:11] [INFO] 元素找到 xpath: //*[@id="um"]/p[1]/a[5]
+[2018-05-08-11:20:16] [INFO] 已点击加载
+[2018-05-08-11:20:17] [INFO] 元素未找到

@@ -1,0 +1,868 @@
+[2018-05-07-23:52:40] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:40] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:40] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[2018-05-07-23:52:40] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:40] [DEBUG] Opening connection {}->http://localhost:1493
+[2018-05-07-23:52:40] [DEBUG] Connecting to localhost/127.0.0.1:1493
+[2018-05-07-23:52:40] [DEBUG] Connection established 127.0.0.1:65458<->127.0.0.1:1493
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:40] [DEBUG] Executing request POST /session HTTP/1.1
+[2018-05-07-23:52:40] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:40] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> POST /session HTTP/1.1
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> Content-Length: 550
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "{[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    "chromeOptions": {[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      "args": [],[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      "extensions": [][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    },[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    "version": "",[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    "platform": "ANY"[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "  },[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "  "capabilities": {[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      "chromeOptions": {[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "        "args": [],[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "        "extensions": [][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      },[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      "version": "",[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      "platform": "ANY"[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    },[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    "firstMatch": [[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      {[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "      }[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "    ][\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "  }[\n]"
+[2018-05-07-23:52:40] [DEBUG] http-outgoing-0 >> "}"
+[2018-05-07-23:52:41] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:41] [DEBUG] http-outgoing-0 << "Content-Length:833[\r][\n]"
+[2018-05-07-23:52:41] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:41] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:41] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)","userDataDir":"C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\scoped_dir17296_15532"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"66.0.3359.139","webStorageEnabled":true}}"
+[2018-05-07-23:52:41] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:41] [DEBUG] http-outgoing-0 << Content-Length:833
+[2018-05-07-23:52:41] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:41] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:41] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:41] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:42] [INFO] 正在启动谷歌浏览器....
+[2018-05-07-23:52:42] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:42] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:42] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:42] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:42] [DEBUG] Stale connection check
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:42] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/url HTTP/1.1
+[2018-05-07-23:52:42] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:42] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/url HTTP/1.1
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> Content-Length: 48
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/url HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 >> "{"url":"http://127.0.0.1:8080/discuz/forum.php"}"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:42] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:42] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:42] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:42] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:42] [INFO] 打开网址http://127.0.0.1:8080/discuz/forum.php
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 36
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"using":"id","value":"ls_username"}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.8784991807561531-1"}}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 元素找到 id: ls_username
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 36
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"using":"id","value":"ls_username"}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.8784991807561531-1"}}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 元素找到 id: ls_username
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-1/clear HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-1/clear HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 29
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-1/clear HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"id":"0.8784991807561531-1"}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (dd622a6d73d49bb4048a803f63883bd0)] -> id: ls_username内容
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-1/value HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-1/value HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 45
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-1/value HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"id":"0.8784991807561531-1","value":["cjw"]}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (dd622a6d73d49bb4048a803f63883bd0)] -> id: ls_username
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 36
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"using":"id","value":"ls_password"}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.8784991807561531-2"}}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 元素找到 id: ls_password
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 36
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"using":"id","value":"ls_password"}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.8784991807561531-2"}}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 元素找到 id: ls_password
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-2/clear HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-2/clear HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 29
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-2/clear HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"id":"0.8784991807561531-2"}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (dd622a6d73d49bb4048a803f63883bd0)] -> id: ls_password内容
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-2/value HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-2/value HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 50
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-2/value HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"id":"0.8784991807561531-2","value":["password"]}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 输入assword
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 86
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 86[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"using":"xpath","value":"//*[@id=\"lsform\"]/div/div/table/tbody/tr[2]/td[3]/button"}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.8784991807561531-3"}}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 元素找到 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-07-23:52:43] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:43] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:43] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [DEBUG] Stale connection check
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:43] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-3/click HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-3/click HTTP/1.1
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Content-Length: 29
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.8784991807561531-3/click HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 >> "{"id":"0.8784991807561531-3"}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:43] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:43] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:43] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:43] [INFO] 已点击加载
+[2018-05-07-23:52:46] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:46] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:46] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:46] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:46] [DEBUG] Stale connection check
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:46] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:46] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:46] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Content-Length: 39
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Content-Length: 39[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "{"using":"class name","value":"fl_icn"}"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << "Content-Length:103[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.22272384342993257-1"}}"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << Content-Length:103
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:46] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:46] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:46] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:46] [INFO] 元素找到 class name: fl_icn
+[2018-05-07-23:52:46] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:46] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:46] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:46] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:46] [DEBUG] Stale connection check
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:46] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.22272384342993257-1/click HTTP/1.1
+[2018-05-07-23:52:46] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:46] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.22272384342993257-1/click HTTP/1.1
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Content-Length: 30
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.22272384342993257-1/click HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:46] [DEBUG] http-outgoing-0 >> "{"id":"0.22272384342993257-1"}"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:47] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:47] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:47] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [INFO] 已点击加载
+[2018-05-07-23:52:47] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:47] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:47] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [DEBUG] Stale connection check
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:47] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:47] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:47] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Content-Length: 66
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Content-Length: 66[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "{"using":"xpath","value":"//*[@id=\"normalthread_3\"]/tr/th/a[1]"}"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.3741533347081545-1"}}"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:47] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:47] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:47] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [INFO] 元素找到 xpath: //*[@id="normalthread_3"]/tr/th/a[1]
+[2018-05-07-23:52:47] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:47] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:47] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [DEBUG] Stale connection check
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:47] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.3741533347081545-1/click HTTP/1.1
+[2018-05-07-23:52:47] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:47] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.3741533347081545-1/click HTTP/1.1
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Content-Length: 29
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.3741533347081545-1/click HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "{"id":"0.3741533347081545-1"}"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:47] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:47] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:47] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [INFO] 已点击加载
+[2018-05-07-23:52:47] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:47] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:47] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [DEBUG] Stale connection check
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:47] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:47] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:47] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Content-Length: 40
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Content-Length: 40[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "{"using":"id","value":"fastpostmessage"}"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.6482726076844123-1"}}"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:47] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:47] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:47] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [INFO] 元素找到 id: fastpostmessage
+[2018-05-07-23:52:47] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:47] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:47] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:47] [DEBUG] Stale connection check
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:47] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:47] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:47] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Content-Length: 40
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Content-Length: 40[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:47] [DEBUG] http-outgoing-0 >> "{"using":"id","value":"fastpostmessage"}"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.6482726076844123-1"}}"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:48] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:48] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:48] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:48] [INFO] 元素找到 id: fastpostmessage
+[2018-05-07-23:52:48] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:48] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:48] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:48] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:48] [DEBUG] Stale connection check
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:48] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-1/clear HTTP/1.1
+[2018-05-07-23:52:48] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:48] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-1/clear HTTP/1.1
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Content-Length: 29
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-1/clear HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "{"id":"0.6482726076844123-1"}"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:48] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:48] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:48] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:48] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (dd622a6d73d49bb4048a803f63883bd0)] -> id: fastpostmessage内容
+[2018-05-07-23:52:48] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:48] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:48] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:48] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:48] [DEBUG] Stale connection check
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:48] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-1/value HTTP/1.1
+[2018-05-07-23:52:48] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:48] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-1/value HTTP/1.1
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Content-Length: 54
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-1/value HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Content-Length: 54[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 >> "{"id":"0.6482726076844123-1","value":["huifudetiezi"]}"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:48] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:48] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:48] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:48] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:48] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (dd622a6d73d49bb4048a803f63883bd0)] -> id: fastpostmessage
+[2018-05-07-23:52:51] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:51] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:51] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:51] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:51] [DEBUG] Stale connection check
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:51] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:51] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:51] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Content-Length: 55
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Content-Length: 55[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "{"using":"xpath","value":"//*[@id=\"fastpostsubmit\"]"}"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":{"ELEMENT":"0.6482726076844123-2"}}"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << Content-Length:102
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:51] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:51] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:51] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:51] [INFO] 元素找到 xpath: //*[@id="fastpostsubmit"]
+[2018-05-07-23:52:51] [DEBUG] CookieSpec selected: default
+[2018-05-07-23:52:51] [DEBUG] Auth cache not set in the context
+[2018-05-07-23:52:51] [DEBUG] Connection request: [route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:51] [DEBUG] Connection leased: [id: 0][route: {}->http://localhost:1493][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:51] [DEBUG] Stale connection check
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0: set socket timeout to 10800000
+[2018-05-07-23:52:51] [DEBUG] Executing request POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-2/click HTTP/1.1
+[2018-05-07-23:52:51] [DEBUG] Target auth state: UNCHALLENGED
+[2018-05-07-23:52:51] [DEBUG] Proxy auth state: UNCHALLENGED
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-2/click HTTP/1.1
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Content-Length: 29
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Host: localhost:1493
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "POST /session/dd622a6d73d49bb4048a803f63883bd0/element/0.6482726076844123-2/click HTTP/1.1[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Host: localhost:1493[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 >> "{"id":"0.6482726076844123-2"}"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "[\r][\n]"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << "{"sessionId":"dd622a6d73d49bb4048a803f63883bd0","status":0,"value":null}"
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << Content-Length:72
+[2018-05-07-23:52:51] [DEBUG] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2018-05-07-23:52:51] [DEBUG] Connection can be kept alive indefinitely
+[2018-05-07-23:52:51] [DEBUG] Connection [id: 0][route: {}->http://localhost:1493] can be kept alive indefinitely
+[2018-05-07-23:52:51] [DEBUG] Connection released: [id: 0][route: {}->http://localhost:1493][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2018-05-07-23:52:51] [INFO] 已点击加载

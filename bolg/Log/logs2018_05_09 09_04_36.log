@@ -1,0 +1,32 @@
+[2018-05-09-09:04:38] [INFO] 正在启动谷歌浏览器....
+[2018-05-09-09:04:40] [INFO] 打开网址http://127.0.0.1:8080/discuz/forum.php
+[2018-05-09-09:04:40] [INFO] 元素找到 id: ls_username
+[2018-05-09-09:04:40] [INFO] 元素找到 id: ls_username
+[2018-05-09-09:04:40] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (fd22db5db5c585c08991096e6a728cf6)] -> id: ls_username内容
+[2018-05-09-09:04:40] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (fd22db5db5c585c08991096e6a728cf6)] -> id: ls_username
+[2018-05-09-09:04:40] [INFO] 元素找到 id: ls_password
+[2018-05-09-09:04:40] [INFO] 元素找到 id: ls_password
+[2018-05-09-09:04:40] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (fd22db5db5c585c08991096e6a728cf6)] -> id: ls_password内容
+[2018-05-09-09:04:40] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (fd22db5db5c585c08991096e6a728cf6)] -> id: ls_password
+[2018-05-09-09:04:40] [INFO] 元素找到 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-09-09:04:40] [INFO] 已点击加载
+[2018-05-09-09:04:40] [INFO] 开始查找元素：By.xpath: //*[@id="um"]/p[1]/a[5]
+[2018-05-09-09:04:43] [INFO] 找到了元素 [By.xpath: //*[@id="um"]/p[1]/a[5]]
+[2018-05-09-09:04:43] [INFO] 元素找到 xpath: //*[@id="um"]/p[1]/a[5]
+[2018-05-09-09:04:43] [INFO] 已点击加载
+[2018-05-09-09:04:44] [INFO] 跳转到新的页面
+[2018-05-09-09:04:44] [INFO] 开始查找元素：By.xpath: //*[@id="loginform"]/p[4]/input
+[2018-05-09-09:04:45] [INFO] 找到了元素 [By.xpath: //*[@id="loginform"]/p[4]/input]
+[2018-05-09-09:04:45] [INFO] 元素找到 xpath: //*[@id="loginform"]/p[4]/input
+[2018-05-09-09:04:45] [INFO] 元素找到 xpath: //*[@id="loginform"]/p[4]/input
+[2018-05-09-09:04:45] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (fd22db5db5c585c08991096e6a728cf6)] -> xpath: //*[@id="loginform"]/p[4]/input内容
+[2018-05-09-09:04:45] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (fd22db5db5c585c08991096e6a728cf6)] -> xpath: //*[@id="loginform"]/p[4]/input
+[2018-05-09-09:04:45] [INFO] 开始查找元素：By.name: submit
+[2018-05-09-09:04:45] [INFO] 找到了元素 [By.name: submit]
+[2018-05-09-09:04:45] [INFO] 元素找到 name: submit
+[2018-05-09-09:04:47] [INFO] 已点击加载
+[2018-05-09-09:04:47] [INFO] 开始查找元素：By.linkText: 论坛
+[2018-05-09-09:04:47] [INFO] 找到了元素 [By.linkText: 论坛]
+[2018-05-09-09:04:47] [INFO] 元素找到 link text: 论坛
+[2018-05-09-09:04:47] [INFO] 已点击加载
+[2018-05-09-09:04:47] [INFO] 开始查找元素：By.xpath: //*[@id="cpform"]/table/tbody[3]/tr/td[2]/div/a

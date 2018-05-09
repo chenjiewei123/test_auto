@@ -1,0 +1,24 @@
+[2018-05-08-17:09:10] [INFO] 正在启动谷歌浏览器....
+[2018-05-08-17:09:11] [INFO] 打开网址http://127.0.0.1:8080/discuz/forum.php
+[2018-05-08-17:09:11] [INFO] 元素找到 id: ls_username
+[2018-05-08-17:09:11] [INFO] 元素找到 id: ls_username
+[2018-05-08-17:09:11] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (ca16dd741bcdcdce651646041f693838)] -> id: ls_username内容
+[2018-05-08-17:09:11] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (ca16dd741bcdcdce651646041f693838)] -> id: ls_username
+[2018-05-08-17:09:11] [INFO] 元素找到 id: ls_password
+[2018-05-08-17:09:11] [INFO] 元素找到 id: ls_password
+[2018-05-08-17:09:11] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (ca16dd741bcdcdce651646041f693838)] -> id: ls_password内容
+[2018-05-08-17:09:11] [INFO] 输入assword
+[2018-05-08-17:09:12] [INFO] 元素找到 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08-17:09:12] [INFO] 已点击加载
+[2018-05-08-17:09:15] [INFO] 元素找到 class name: fl_icn
+[2018-05-08-17:09:15] [INFO] 已点击加载
+[2018-05-08-17:09:18] [INFO] 元素找到 id: subject
+[2018-05-08-17:09:18] [INFO] 元素找到 id: subject
+[2018-05-08-17:09:18] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (ca16dd741bcdcdce651646041f693838)] -> id: subject内容
+[2018-05-08-17:09:18] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (ca16dd741bcdcdce651646041f693838)] -> id: subject
+[2018-05-08-17:09:18] [INFO] 元素找到 id: fastpostmessage
+[2018-05-08-17:09:18] [INFO] 元素找到 id: fastpostmessage
+[2018-05-08-17:09:18] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (ca16dd741bcdcdce651646041f693838)] -> id: fastpostmessage内容
+[2018-05-08-17:09:18] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (ca16dd741bcdcdce651646041f693838)] -> id: fastpostmessage
+[2018-05-08-17:09:18] [INFO] 元素找到 id: fastpostsubmit
+[2018-05-08-17:09:18] [INFO] 已点击加载
