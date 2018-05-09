@@ -7,6 +7,6 @@ import org.openqa.selenium.By;
  */
 public class Page_loginout {
     //点击退出
-    public static final By LOGOUT_LINK_TITLE=By.xpath("//*[@id=\"um\"]/p[1]/a[4]");
+    public static final By LOGOUT_LINK_TITLE=By.linkText("退出");
 
 }

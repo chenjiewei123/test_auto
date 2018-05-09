@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -19,6 +20,7 @@ import java.util.Set;
 public class SeleniumUtil {
     private static Logger logger=Logger.getLogger(SeleniumUtil.class);
     public WebDriver driver=null;
+
     public WebDriver getDriver(String driverType){
 
         if (driverType.equals("chrome")){
@@ -162,9 +164,10 @@ public WebElement findElement(By by){
   public void iframe(String id){
     driver.switchTo().frame(id);
       logger.info("进入iframe页面");
-}
+   }
 public void iframe(){
     driver.switchTo().defaultContent();
+    logger.info("退出iframe页面");
 }
     /**设置显示等待元素*/
     public void waitForElementLoad(final By by, int timeOut){
@@ -190,5 +193,12 @@ public void iframe(){
         waitForElementLoad(by, 10);
     }
 
+    //鼠标悬停
+    public void mouse(WebElement webElement){
+        Actions actions=new Actions(driver);
+        actions.moveToElement(webElement).perform();
+
+
+    }
 
 }

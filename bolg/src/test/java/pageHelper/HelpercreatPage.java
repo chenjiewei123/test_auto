@@ -49,4 +49,9 @@ seleniumUtil.waitForElementLoad(Page_guan_login.ALGIN_LINK_INPUT,10);
         seleniumUtil.waitForElementLoad(Page_creat_tie.ALGIN_LINK_NEWSUBMIT,10);
         seleniumUtil.click(Page_creat_tie.ALGIN_LINK_NEWSUBMIT);
     }
+    public static void clickTui(SeleniumUtil seleniumUtil){
+        seleniumUtil.waitForElementLoad(Page_creat_tie.ALGIN_LINK_ATUI,10);
+        seleniumUtil.click(Page_creat_tie.ALGIN_LINK_ATUI);
+    }
+
 }

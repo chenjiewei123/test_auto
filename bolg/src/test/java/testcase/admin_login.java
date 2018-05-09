@@ -3,6 +3,7 @@ package testcase;
 import org.testng.annotations.Test;
 import pageHelper.HelperLoginPage1;
 import pageHelper.HelpercreatPage;
+import pageHelper.HelperfateiPage;
 
 /**
  * Created by chenjiewei on 2018/5/8.
@@ -32,5 +33,8 @@ public class admin_login extends BasicTestCase{
         HelpercreatPage.clickkuai(seleniumUtil);
        HelpercreatPage.inputnewname(seleniumUtil,"lllll");
        HelpercreatPage.clicksubmitti(seleniumUtil);
+       seleniumUtil.iframe();
+       HelpercreatPage.clickTui(seleniumUtil);
+       HelperfateiPage.clicklogout(seleniumUtil);
      }
 }
