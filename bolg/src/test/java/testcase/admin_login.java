@@ -14,8 +14,6 @@ public class admin_login extends BasicTestCase{
         HelperLoginPage1.inputusername(seleniumUtil,"admin");
         HelperLoginPage1.inputpassword(seleniumUtil,"admin");
         HelperLoginPage1.clicksubmit(seleniumUtil);
-
-
         //HelperfateiPage.clickfa(seleniumUtil);
         //HelperdenletPage.clickxuan(seleniumUtil);
         //HelperdenletPage.clickalertsubmit(seleniumUtil);

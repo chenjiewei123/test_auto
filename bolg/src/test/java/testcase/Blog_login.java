@@ -1,16 +1,9 @@
 package testcase;
 
-import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageHelper.HelperLoginPage;
 import pageHelper.HelperLoginPage1;
 import pageHelper.HelperfateiPage;
-import util.LogConfiguration;
-import util.SeleniumUtil;
 
 /**
  * Created by chenjiewei on 2018/5/7.

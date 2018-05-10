@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="blog">
+
+    <test name="User">
+        <classes>
+            <class name="testcase.Blog_login"></class>
+        </classes>
+    </test>
+    </suite>

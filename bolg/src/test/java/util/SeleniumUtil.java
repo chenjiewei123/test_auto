@@ -9,7 +9,11 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
+import java.util.Properties;
 import java.util.Set;
 
 //import org.apache.xpath.operations.String;
@@ -20,14 +24,21 @@ import java.util.Set;
 public class SeleniumUtil {
     private static Logger logger=Logger.getLogger(SeleniumUtil.class);
     public WebDriver driver=null;
+   public static String driverType;
+    //启动浏览器
 
-    public WebDriver getDriver(String driverType){
-
+    public WebDriver getDriver(String browser) throws IOException {
+        Properties type=new Properties();
+        InputStream team=new FileInputStream("./browser.properties");
+        type.load(team);
+        driverType=type.getProperty(browser);
+        team.close();
         if (driverType.equals("chrome")){
+            System.setProperty("webdriver.chrome.driver","D:\\maven-3.0.5\\chrome&driver\\chromedriver.exe");
           driver=new ChromeDriver();
             logger.info("正在启动谷歌浏览器....");
         }else if (driverType.equals("firefox")){
-
+            System.setProperty("webdriver.gecko.driver","D:\\maven-3.0.5\\chrome&driver\\geckodriver.exe");
             driver=new FirefoxDriver();
             logger.info("正在启动火狐浏览器");
         }else{
