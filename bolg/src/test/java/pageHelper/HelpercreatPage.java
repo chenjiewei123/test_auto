@@ -18,7 +18,7 @@ public class HelpercreatPage {
 
     public static void inputpasswordguanli(SeleniumUtil seleniumUtil, String adminpwd){
 
-seleniumUtil.waitForElementLoad(Page_guan_login.ALGIN_LINK_INPUT,10);
+        seleniumUtil.waitForElementLoad(Page_guan_login.ALGIN_LINK_INPUT,10);
         seleniumUtil.sendKeys(Page_guan_login.ALGIN_LINK_INPUT,adminpwd);
     }
     public static void clicktijiao(SeleniumUtil seleniumUtil){
