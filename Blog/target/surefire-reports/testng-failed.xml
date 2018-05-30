@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [blog]">
+  <test name="User">
+    <classes>
+      <class name="testcase.Blog_login"/>
+      <class name="testcase.Blog_huitie"/>
+      <class name="testcase.Blog_pu_login"/>
+      <class name="testcase.Blog_toupiao"/>
+      <class name="testcase.admin_login"/>
+      <class name="testcase.Blog_sreach"/>
+      <class name="testcase.TestElement"/>
+    </classes>
+  </test> <!-- User -->
+  <test name="User(failed)">
+    <classes>
+      <class name="testcase.admin_login">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.admin_login -->
+      <class name="testcase.Blog_huitie">
+        <methods>
+          <include name="huitie"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.Blog_huitie -->
+      <class name="testcase.Blog_toupiao">
+        <methods>
+          <include name="tou"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.Blog_toupiao -->
+      <class name="testcase.Blog_login">
+        <methods>
+          <include name="huifu"/>
+          <include name="setUp"/>
+          <include name="Alogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.Blog_login -->
+      <class name="testcase.Blog_sreach">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.Blog_sreach -->
+      <class name="testcase.Blog_pu_login">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.Blog_pu_login -->
+    </classes>
+  </test> <!-- User(failed) -->
+</suite> <!-- Failed suite [blog] -->

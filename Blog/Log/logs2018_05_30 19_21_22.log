@@ -1,0 +1,53 @@
+[2018-05-30-19:21:25] [INFO] 正在启动谷歌浏览器....
+[2018-05-30-19:21:26] [INFO] 打开网址http://127.0.0.1:8088/discuz/forum.php
+[2018-05-30-19:21:26] [INFO] 元素找到 id: ls_username
+[2018-05-30-19:21:26] [INFO] 元素找到 id: ls_username
+[2018-05-30-19:21:26] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (fe4caa105f1d229042cb02e5a2d4e5aa)] -> id: ls_username内容
+[2018-05-30-19:21:26] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (fe4caa105f1d229042cb02e5a2d4e5aa)] -> id: ls_username
+[2018-05-30-19:21:26] [INFO] 元素找到 id: ls_password
+[2018-05-30-19:21:26] [INFO] 元素找到 id: ls_password
+[2018-05-30-19:21:26] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (fe4caa105f1d229042cb02e5a2d4e5aa)] -> id: ls_password内容
+[2018-05-30-19:21:26] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (fe4caa105f1d229042cb02e5a2d4e5aa)] -> id: ls_password
+[2018-05-30-19:21:26] [INFO] 元素找到 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-30-19:21:27] [INFO] 已点击加载
+[2018-05-30-19:21:27] [INFO] 开始查找元素：By.xpath: //*[@id="um"]/p[1]/a[5]
+[2018-05-30-19:21:30] [INFO] 找到了元素 [By.xpath: //*[@id="um"]/p[1]/a[5]]
+[2018-05-30-19:21:30] [INFO] 元素找到 xpath: //*[@id="um"]/p[1]/a[5]
+[2018-05-30-19:21:30] [INFO] 已点击加载
+[2018-05-30-19:21:30] [INFO] 跳转到新的页面
+[2018-05-30-19:21:30] [INFO] 开始查找元素：By.xpath: //*[@id="loginform"]/p[4]/input
+[2018-05-30-19:21:31] [INFO] 找到了元素 [By.xpath: //*[@id="loginform"]/p[4]/input]
+[2018-05-30-19:21:31] [INFO] 元素找到 xpath: //*[@id="loginform"]/p[4]/input
+[2018-05-30-19:21:31] [INFO] 元素找到 xpath: //*[@id="loginform"]/p[4]/input
+[2018-05-30-19:21:31] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (fe4caa105f1d229042cb02e5a2d4e5aa)] -> xpath: //*[@id="loginform"]/p[4]/input内容
+[2018-05-30-19:21:31] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (fe4caa105f1d229042cb02e5a2d4e5aa)] -> xpath: //*[@id="loginform"]/p[4]/input
+[2018-05-30-19:21:31] [INFO] 开始查找元素：By.name: submit
+[2018-05-30-19:21:31] [INFO] 找到了元素 [By.name: submit]
+[2018-05-30-19:21:31] [INFO] 元素找到 name: submit
+[2018-05-30-19:21:54] [INFO] 已点击加载
+[2018-05-30-19:21:54] [INFO] 开始查找元素：By.linkText: 论坛
+[2018-05-30-19:21:54] [INFO] 找到了元素 [By.linkText: 论坛]
+[2018-05-30-19:21:54] [INFO] 元素找到 link text: 论坛
+[2018-05-30-19:21:54] [INFO] 已点击加载
+[2018-05-30-19:21:54] [INFO] 进入iframe页面
+[2018-05-30-19:21:54] [INFO] 开始查找元素：By.xpath: //*[@id="cpform"]/table/tbody[3]/tr/td[2]/div/a
+[2018-05-30-19:21:57] [INFO] 找到了元素 [By.xpath: //*[@id="cpform"]/table/tbody[3]/tr/td[2]/div/a]
+[2018-05-30-19:21:57] [INFO] 元素找到 xpath: //*[@id="cpform"]/table/tbody[3]/tr/td[2]/div/a
+[2018-05-30-19:21:57] [INFO] 已点击加载
+[2018-05-30-19:21:57] [INFO] 元素找到 xpath: //*[@id="cpform"]/table/tbody[3]/tr[1]/td[3]/div/input
+[2018-05-30-19:21:57] [INFO] 元素找到 xpath: //*[@id="cpform"]/table/tbody[3]/tr[1]/td[3]/div/input
+[2018-05-30-19:21:57] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (fe4caa105f1d229042cb02e5a2d4e5aa)] -> xpath: //*[@id="cpform"]/table/tbody[3]/tr[1]/td[3]/div/input内容
+[2018-05-30-19:21:57] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (fe4caa105f1d229042cb02e5a2d4e5aa)] -> xpath: //*[@id="cpform"]/table/tbody[3]/tr[1]/td[3]/div/input
+[2018-05-30-19:21:57] [INFO] 开始查找元素：By.id: submit_editsubmit
+[2018-05-30-19:21:57] [INFO] 找到了元素 [By.id: submit_editsubmit]
+[2018-05-30-19:21:57] [INFO] 元素找到 id: submit_editsubmit
+[2018-05-30-19:21:57] [INFO] 已点击加载
+[2018-05-30-19:21:57] [INFO] 退出iframe页面
+[2018-05-30-19:21:57] [INFO] 开始查找元素：By.linkText: 退出
+[2018-05-30-19:21:57] [INFO] 找到了元素 [By.linkText: 退出]
+[2018-05-30-19:21:57] [INFO] 元素找到 link text: 退出
+[2018-05-30-19:21:58] [INFO] 已点击加载
+[2018-05-30-19:21:58] [INFO] 开始查找元素：By.linkText: 退出
+[2018-05-30-19:21:58] [INFO] 找到了元素 [By.linkText: 退出]
+[2018-05-30-19:21:58] [INFO] 元素找到 link text: 退出
+[2018-05-30-19:21:58] [INFO] 已点击加载

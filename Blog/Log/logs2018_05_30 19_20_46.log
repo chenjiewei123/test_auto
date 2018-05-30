@@ -1,0 +1,34 @@
+[2018-05-30-19:20:49] [INFO] 正在启动谷歌浏览器....
+[2018-05-30-19:20:50] [INFO] 打开网址http://127.0.0.1:8088/discuz/forum.php
+[2018-05-30-19:20:50] [INFO] 元素找到 id: ls_username
+[2018-05-30-19:20:50] [INFO] 元素找到 id: ls_username
+[2018-05-30-19:20:50] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (69f373f57e20adf31de2476420dc5e35)] -> id: ls_username内容
+[2018-05-30-19:20:50] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (69f373f57e20adf31de2476420dc5e35)] -> id: ls_username
+[2018-05-30-19:20:50] [INFO] 元素找到 id: ls_password
+[2018-05-30-19:20:50] [INFO] 元素找到 id: ls_password
+[2018-05-30-19:20:50] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (69f373f57e20adf31de2476420dc5e35)] -> id: ls_password内容
+[2018-05-30-19:20:50] [INFO] 输入assword
+[2018-05-30-19:20:50] [INFO] 元素找到 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-30-19:20:51] [INFO] 已点击加载
+[2018-05-30-19:20:54] [INFO] 元素找到 link text: 123
+[2018-05-30-19:20:54] [INFO] 已点击加载
+[2018-05-30-19:20:57] [INFO] 开始查找元素：By.id: subject
+[2018-05-30-19:20:57] [INFO] 找到了元素 [By.id: subject]
+[2018-05-30-19:20:57] [INFO] 元素找到 id: subject
+[2018-05-30-19:20:57] [INFO] 元素找到 id: subject
+[2018-05-30-19:20:57] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (69f373f57e20adf31de2476420dc5e35)] -> id: subject内容
+[2018-05-30-19:20:57] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (69f373f57e20adf31de2476420dc5e35)] -> id: subject
+[2018-05-30-19:20:57] [INFO] 开始查找元素：By.id: fastpostmessage
+[2018-05-30-19:20:57] [INFO] 找到了元素 [By.id: fastpostmessage]
+[2018-05-30-19:20:57] [INFO] 元素找到 id: fastpostmessage
+[2018-05-30-19:20:57] [INFO] 元素找到 id: fastpostmessage
+[2018-05-30-19:20:57] [INFO] 已清除[[ChromeDriver: chrome on WIN8_1 (69f373f57e20adf31de2476420dc5e35)] -> id: fastpostmessage内容
+[2018-05-30-19:20:57] [INFO] 输入[[ChromeDriver: chrome on WIN8_1 (69f373f57e20adf31de2476420dc5e35)] -> id: fastpostmessage
+[2018-05-30-19:20:57] [INFO] 开始查找元素：By.id: fastpostsubmit
+[2018-05-30-19:20:57] [INFO] 找到了元素 [By.id: fastpostsubmit]
+[2018-05-30-19:20:57] [INFO] 元素找到 id: fastpostsubmit
+[2018-05-30-19:20:57] [INFO] 已点击加载
+[2018-05-30-19:21:00] [INFO] 开始查找元素：By.linkText: 退出
+[2018-05-30-19:21:00] [INFO] 找到了元素 [By.linkText: 退出]
+[2018-05-30-19:21:00] [INFO] 元素找到 link text: 退出
+[2018-05-30-19:21:00] [INFO] 已点击加载
