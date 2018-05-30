@@ -1,0 +1,30 @@
+from util2.seleniumUtil import getDriver
+import time
+def test_discuz_create(pwd,newname):
+    create_click_guan=getDriver.driver.find_element_by_xpath('//*[@id="um"]/p[1]/a[5]')
+    create_click_guan.click()
+    print('点击管理中心')
+    #time.sleep(3)
+    getDriver.driver.switch_to.window(getDriver.driver.window_handles[1])
+    create_input_pwd=getDriver.driver.find_element_by_name('admin_password')
+    create_input_pwd.send_keys(pwd)
+    print('输入密码')
+    create_click_sure=getDriver.driver.find_element_by_name('submit')
+    create_click_sure.click()
+    print('点击提交')
+    create_click_lun=getDriver.driver.find_element_by_link_text('论坛')
+    create_click_lun.click()
+    print('点击论坛')
+
+    getDriver.driver.switch_to.frame("main")
+    create_click_add=getDriver.driver.find_element_by_xpath('//*[@id="cpform"]/table/tbody[3]/tr/td[2]/div/a')
+    create_click_add.click()
+    create_input_newname=getDriver.driver.find_element_by_xpath('//*[@id="cpform"]/table/tbody[3]/tr[1]/td[3]/div/input')
+    create_input_newname.send_keys(newname)
+
+    create_click_tijiao=getDriver.driver.find_element_by_name('editsubmit')
+    create_click_tijiao.click()
+    getDriver.driver.switch_to.default_content()
+    create_click_tui=getDriver.driver.find_element_by_link_text('退出')
+    create_click_tui.click()
+    create_click_tui2=getDriver.driver.find_element_by_xpath('//*[@id="um"]/p[1]/a[6]').click()
